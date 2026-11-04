@@ -1,0 +1,26 @@
+# <Project name>
+
+## Commands
+- Install: `<pnpm install --frozen-lockfile | npm ci | yarn install --immutable>`
+- Dev: `<cmd>`   Build: `<cmd>`   Preview: `<cmd>`
+- Test: `<cmd>`   E2E: `<cmd>`   Lint: `<cmd>`   Types: `<cmd>`
+
+## Stack
+<React version, framework/bundler, router, server-state lib, client-state lib, styling, forms/validation, test tools>
+
+## Structure
+<Short tree. Say where features, shared code, routes, tests and env config live. State the import rules, e.g. "import features only through their index.ts".>
+
+## Conventions
+- <Data fetching rule, e.g. TanStack Query hooks only; no fetch in components>
+- <Styling rule>
+- <Testing rule: query by role/label; MSW for network>
+- <Env rule: only through src/shared/config/env.ts>
+
+## Do not
+- <Generated folders that must not be edited>
+- <Things that need approval: new dependencies, schema changes, deploy>
+- Commit secrets or `.env*` files.
+
+## Before finishing a task
+Run: typecheck, lint, tests for touched code, build. Report real results.
