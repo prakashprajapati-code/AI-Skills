@@ -1,0 +1,224 @@
+{
+  "tests": [
+    {
+      "query": "where should my ProductCard component and its hook live in this next.js repo?",
+      "skill": "nextjs-architecture"
+    },
+    {
+      "query": "our src/utils folder is a dump and features import each other, how do we restructure?",
+      "skill": "nextjs-architecture"
+    },
+    {
+      "query": "set up a folder structure for a new next.js app router project with multiple domains",
+      "skill": "nextjs-architecture"
+    },
+    {
+      "query": "i keep getting circular imports between my billing and users modules",
+      "skill": "nextjs-architecture"
+    },
+    {
+      "query": "how should I type the result of a server action in next.js?",
+      "skill": "nextjs-typescript-conventions"
+    },
+    {
+      "query": "lots of any in our codebase, how do we enforce strict typing and consistent error handling?",
+      "skill": "nextjs-typescript-conventions"
+    },
+    {
+      "query": "parse process.env safely with zod in next",
+      "skill": "nextjs-typescript-conventions"
+    },
+    {
+      "query": "should I use type or interface and how do I name zod schemas",
+      "skill": "nextjs-typescript-conventions"
+    },
+    {
+      "query": "when should I add use client in the app router?",
+      "skill": "nextjs-rendering-react"
+    },
+    {
+      "query": "my page is dynamic but should be static, why?",
+      "skill": "nextjs-rendering-react"
+    },
+    {
+      "query": "getting hydration mismatch with a date in my component",
+      "skill": "nextjs-rendering-react"
+    },
+    {
+      "query": "how does revalidateTag work after a mutation in next 15",
+      "skill": "nextjs-rendering-react"
+    },
+    {
+      "query": "server action or route handler for a form that creates an invoice?",
+      "skill": "nextjs-data-backend"
+    },
+    {
+      "query": "write a next.js api route that validates with zod and saves to postgres with a transaction",
+      "skill": "nextjs-data-backend"
+    },
+    {
+      "query": "how do I handle a stripe webhook in app router",
+      "skill": "nextjs-data-backend"
+    },
+    {
+      "query": "prisma queries are N+1 in my server components",
+      "skill": "nextjs-data-backend"
+    },
+    {
+      "query": "how do I protect server actions so only admins can call them?",
+      "skill": "nextjs-security"
+    },
+    {
+      "query": "is my next.js auth middleware enough to secure the dashboard?",
+      "skill": "nextjs-security"
+    },
+    {
+      "query": "add rate limiting and a CSP to my next app",
+      "skill": "nextjs-security"
+    },
+    {
+      "query": "review this route handler for IDOR and injection issues",
+      "skill": "nextjs-security"
+    },
+    {
+      "query": "lighthouse says my LCP is 4s on my next.js site, help",
+      "skill": "nextjs-performance"
+    },
+    {
+      "query": "reduce bundle size, analyzer shows a huge chart library",
+      "skill": "nextjs-performance"
+    },
+    {
+      "query": "layout shift from images and fonts in next",
+      "skill": "nextjs-performance"
+    },
+    {
+      "query": "how do I stream slow data with suspense and loading.tsx",
+      "skill": "nextjs-performance"
+    },
+    {
+      "query": "make this modal keyboard accessible in next.js",
+      "skill": "nextjs-ui-accessibility"
+    },
+    {
+      "query": "add dark mode without a flash on reload",
+      "skill": "nextjs-ui-accessibility"
+    },
+    {
+      "query": "my form errors aren't announced by screen readers",
+      "skill": "nextjs-ui-accessibility"
+    },
+    {
+      "query": "build a responsive navbar with tailwind that works on mobile",
+      "skill": "nextjs-ui-accessibility"
+    },
+    {
+      "query": "add generateMetadata and canonical urls to dynamic product pages",
+      "skill": "nextjs-seo"
+    },
+    {
+      "query": "google shows the wrong og image for my next.js site",
+      "skill": "nextjs-seo"
+    },
+    {
+      "query": "create sitemap.ts and robots.ts",
+      "skill": "nextjs-seo"
+    },
+    {
+      "query": "add JSON-LD product schema safely",
+      "skill": "nextjs-seo"
+    },
+    {
+      "query": "set up vitest and playwright for my next.js app",
+      "skill": "nextjs-testing-quality"
+    },
+    {
+      "query": "review this pull request diff for a next.js project",
+      "skill": "nextjs-testing-quality"
+    },
+    {
+      "query": "eslint flat config broke after upgrading to next 16",
+      "skill": "nextjs-testing-quality"
+    },
+    {
+      "query": "how do I test a server action and a route handler",
+      "skill": "nextjs-testing-quality"
+    },
+    {
+      "query": "write a github actions pipeline and dockerfile for my next.js app",
+      "skill": "nextjs-devops-operations"
+    },
+    {
+      "query": "how do I add sentry and a health check endpoint?",
+      "skill": "nextjs-devops-operations"
+    },
+    {
+      "query": "env vars undefined in production for NEXT_PUBLIC values",
+      "skill": "nextjs-devops-operations"
+    },
+    {
+      "query": "plan a safe rollback and runbook for our next.js deploys",
+      "skill": "nextjs-devops-operations"
+    },
+    {
+      "query": "write a python fastapi endpoint with pydantic validation",
+      "skill": null
+    },
+    {
+      "query": "design a postgres schema for an invoicing system (no framework)",
+      "skill": null
+    },
+    {
+      "query": "fix my react native navigation bug",
+      "skill": null
+    },
+    {
+      "query": "how do I deploy a django app with docker",
+      "skill": null
+    },
+    {
+      "query": "create a tailwind-free vanilla css landing page",
+      "skill": null
+    },
+    {
+      "query": "explain how kubernetes ingress works",
+      "skill": null
+    },
+    {
+      "query": "review my next.js app, only look at security and testing",
+      "skill": "nextjs-skills-router"
+    },
+    {
+      "query": "build a contact form in next, use whichever skills make sense but skip seo",
+      "skill": "nextjs-skills-router"
+    },
+    {
+      "query": "which nextjs skills would you use to make this app production ready? let me pick",
+      "skill": "nextjs-skills-router"
+    },
+    {
+      "query": "add a dashboard page to my next app",
+      "skill": "nextjs-skills-router"
+    },
+    {
+      "query": "my useEffect fires twice and I have a stale closure, how do I fix the dependency array",
+      "skill": "nextjs-rendering-react"
+    },
+    {
+      "query": "should I wrap this in useMemo and useCallback or enable the react compiler",
+      "skill": "nextjs-rendering-react"
+    },
+    {
+      "query": "list items lose their input state when I delete one, what key should I use",
+      "skill": "nextjs-rendering-react"
+    },
+    {
+      "query": "when to use useReducer vs useState vs zustand for client state",
+      "skill": "nextjs-rendering-react"
+    },
+    {
+      "query": "write a custom hook with renderHook test for debouncing a value",
+      "skill": "nextjs-testing-quality"
+    }
+  ]
+}
